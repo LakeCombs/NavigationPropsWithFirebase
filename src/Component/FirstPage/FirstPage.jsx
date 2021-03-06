@@ -30,7 +30,6 @@ function FirstPage() {
 				<div className="Card">
 					<img src={img1} className="imageHolder" />
 
-					{/* <Link to={`/furtherpage/${id}`} style={{ cursor: "pointer" }}> */}
 					<Link to={`/furtherpage/${id}`}>
 						<img className="image" src={avatar} />
 					</Link>
@@ -45,7 +44,6 @@ function FirstPage() {
 						img1={img1}
 						img2={img2}
 					/>
-					{/* <Button>See More</Button> */}
 				</div>
 			))}
 		</div>
